@@ -1,0 +1,3 @@
+/Users/reinaldo/CLionProjects/QuantumLeap3D/cmake-build-debug/CMakeFiles/QuantumLeap3D.dir
+/Users/reinaldo/CLionProjects/QuantumLeap3D/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/reinaldo/CLionProjects/QuantumLeap3D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
