@@ -3,4 +3,8 @@ project(QuantumLeap3D)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(QuantumLeap3D src/main.cpp)
+file(GLOB_RECURSE SOURCES "src/*.cpp")
+
+add_executable(QuantumLeap3D ${SOURCES})
+
+target_include_directories(QuantumLeap3D PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)

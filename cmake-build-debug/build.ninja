@@ -49,9 +49,17 @@ cmake_ninja_workdir = /Users/reinaldo/CLionProjects/QuantumLeap3D/cmake-build-de
 
 build cmake_object_order_depends_target_QuantumLeap3D: phony || CMakeFiles/QuantumLeap3D.dir
 
+build CMakeFiles/QuantumLeap3D.dir/src/Core/Application.cpp.o: CXX_COMPILER__QuantumLeap3D_unscanned_Debug /Users/reinaldo/CLionProjects/QuantumLeap3D/src/Core/Application.cpp || cmake_object_order_depends_target_QuantumLeap3D
+  DEP_FILE = CMakeFiles/QuantumLeap3D.dir/src/Core/Application.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  INCLUDES = -I/Users/reinaldo/CLionProjects/QuantumLeap3D/include
+  OBJECT_DIR = CMakeFiles/QuantumLeap3D.dir
+  OBJECT_FILE_DIR = CMakeFiles/QuantumLeap3D.dir/src/Core
+
 build CMakeFiles/QuantumLeap3D.dir/src/main.cpp.o: CXX_COMPILER__QuantumLeap3D_unscanned_Debug /Users/reinaldo/CLionProjects/QuantumLeap3D/src/main.cpp || cmake_object_order_depends_target_QuantumLeap3D
   DEP_FILE = CMakeFiles/QuantumLeap3D.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  INCLUDES = -I/Users/reinaldo/CLionProjects/QuantumLeap3D/include
   OBJECT_DIR = CMakeFiles/QuantumLeap3D.dir
   OBJECT_FILE_DIR = CMakeFiles/QuantumLeap3D.dir/src
 
@@ -63,7 +71,7 @@ build CMakeFiles/QuantumLeap3D.dir/src/main.cpp.o: CXX_COMPILER__QuantumLeap3D_u
 #############################################
 # Link the executable QuantumLeap3D
 
-build QuantumLeap3D: CXX_EXECUTABLE_LINKER__QuantumLeap3D_Debug CMakeFiles/QuantumLeap3D.dir/src/main.cpp.o
+build QuantumLeap3D: CXX_EXECUTABLE_LINKER__QuantumLeap3D_Debug CMakeFiles/QuantumLeap3D.dir/src/Core/Application.cpp.o CMakeFiles/QuantumLeap3D.dir/src/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4
   LINK_FLAGS = -L/opt/homebrew/opt/icu4c/lib
   OBJECT_DIR = CMakeFiles/QuantumLeap3D.dir

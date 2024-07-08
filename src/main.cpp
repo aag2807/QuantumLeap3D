@@ -1,8 +1,8 @@
-#include <iostream>
-
+#include "Core/Application.h"
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    QuantumLeap3D::Application app;
+
+    return app.Run();
 }
